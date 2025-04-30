@@ -2,8 +2,9 @@
   "name": "study",
   "version": "0.0.0",
   "scripts": {
-   "build": "tsc && node set-env.js",  
-  "prebuild": "tsc",  
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "tsc && node ./dist/set-env.js",   
   "watch": "ng build --watch --configuration development",
   "test": "ng test"
   },
